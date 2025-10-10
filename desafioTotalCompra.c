@@ -19,9 +19,9 @@ int main(){
     total = preco * quantidade;
 
     printf("Produto: %s\n",produto);
-    printf("preco: %2f\n",preco);
+    printf("preco: %.2f\n",preco);
     printf("Quantidade: %d\n",quantidade);
-    printf("Valor total: %2f\n", total);
+    printf("Valor total: %.2f\n", total);
 
 return 0;
 
